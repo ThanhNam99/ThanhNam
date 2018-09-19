@@ -1,0 +1,338 @@
+
+.khung{
+	width: 1200px;
+	height: 1550px;
+	/*background: pink;*/
+	margin:0 auto;
+}
+
+.khung .menuu{
+	width: 1000px;
+	height: 100px;
+	/*background: gray;*/
+	margin-left: 100px;
+}
+.menuu h1{
+	float: left;
+	margin:0;
+	padding: 0;
+	display: block;
+	width: 490px;
+	height: 100%;
+	/*background: pink;*/
+	line-height: 100px;
+	padding-left: 10px;
+	color: red;
+}
+.menuu ul{
+	float: left;
+	margin:0;
+	padding: 0;
+	display: block;
+	width: 40%;
+	height: 100%;
+	/*background: blue;*/
+}
+.menuu ul li{
+	float: left;
+	display: block;
+	width: 25%;
+	height: 100%;
+	line-height: 100px;
+}
+.menuu ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+}
+.menuu ul li a:hover{
+	color: gray;
+}
+.menuu .logo{
+	margin: 0;
+	float: left;
+	width: 7%;
+	height: 30%;
+	background: red;
+	margin-top: 35px;
+}
+.logo img{
+	display: block;
+	width: 30%;
+	height: 80%;
+	margin-top: 2.5px;
+	margin-left: 2px;
+}
+.logo p{
+	margin: 0;
+	margin-top: -22px;
+	margin-left: 25px;
+	font-size: 17px;
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+.logo a:hover{
+	color: black;
+}
+.khung .pic{
+	background-image: url(http://thuthuatphanmem.vn/uploads/2018/05/18/hinh-nen-full-hd-1080-vuon-hoa-tulip-cuc-dep_022901007.jpg);
+	background-size: cover;
+	width: 1000px;
+	height: 500px;
+	margin-left: 100px;
+}
+.pic h1.h1{
+	margin: 0;
+	padding: 0;
+	font-size: 45px;
+	padding-top: 400px;
+	padding-left: 20px;
+	color: white;
+}
+.pic p.p{
+	margin: 0;
+	padding: 0;
+	padding-left: 35px;
+	font-size: 25px;
+	color: red;
+	padding-top: 5px;
+}
+.khung .header{
+	width: 1000px;
+	height: 300px;
+	background: #f4f7f7;
+	margin-left: 100px;
+}
+.header .contents{
+	float: left;
+	margin-right:3%; 
+	width: 215.5px;
+	height: 300px;
+	/*background: #eaedf2;	*/
+}
+.contents img{
+	float: left;
+	display: block;
+	width: 22%;
+	height: 18%;
+	background: black;
+	margin-top: 10px;
+}
+.contents h2{
+	padding: 0;
+	padding-left: 5px;
+	margin: 0;
+	float: left;
+	display: block;
+	width: 75%;
+	height: 25%;
+	/*background: blue;*/
+	/*color: black;*/
+	text-align: justify;
+	font-size: 20px;
+	line-height: 75px;
+}
+.contents a{
+	color: black;
+}
+.contents a:hover{
+	color: gray;
+}
+.contents p{
+	font-size: 15px;
+}
+.contents a.content: {
+	text-decoration: none;
+	color: black;
+}
+.contents a.conten:hover{
+	color: gray; 
+}
+.contents a.link{
+	line-height: 25px;
+	display: block;
+	width: 60%;
+	height: 10%;
+	background: yellow;
+	margin-top: 70px;
+	text-decoration: none;
+	color: black;
+}
+.contents a.linh:hover{
+	color: gray;
+
+}
+
+
+
+.khung .line{
+	clear: both;
+	width: 1000px;
+	height: 50px;
+	background: #f4f7f7;
+	margin-left: 100px;
+}
+.line h2.line{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 40%;
+	height: 100%;
+	float: left;
+	line-height: 50px;
+	/*background: red;*/
+}
+.line ul{
+	margin: 0;
+	padding: 0;
+	float:left;
+	display: block;
+	width: 55%;
+	height: 20%;
+	background: #dcdfe2;
+	margin-top: 20px;
+}
+.khung .box{
+	width: 1000px;
+	height: 300px;
+	background: #f4f7f7;
+	margin-left: 20px;
+	margin-left: 100px;
+}
+.box .box11{
+	float: left;
+	width: 31%;
+	height: 100%;
+}
+
+.box11 img{
+	display: block;
+	width: 100%;
+	height: 50%;
+	/*border-bottom: pink;*/
+}
+.box h3{
+	margin: 0;
+	padding: 0;
+	color: black;
+	line-height: 35px;
+	padding-left: 10px;
+}
+.box a{
+	text-decoration: none;
+}
+.box ul.ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	display: block;
+	width: 10%;
+	height: 2%;
+	background: yellow;
+}
+.box ul.ull{
+	float: left;
+	margin: 0;
+	padding: 0;	
+	display: block;
+	width: 260px;
+	height: 1%;
+ 	background: white;
+ 	margin-top: 2px;
+}
+.box a h3:hover{
+	color: gray;
+}
+.box a img:hover{
+	opacity: 0.8;
+}
+.box a p{
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	color: black;
+	font-size: 17px;
+}
+.box a.word{
+	text-decoration: none;
+}
+.box a.word p:hover{
+	color: gray;
+}
+.box11 .aaaa{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.khung .menu {
+	clear: both;
+	width: 1130px;
+	height: 300px;
+	background: gray;
+	padding-left: 70px;
+}
+.menu ul{
+	float: left;
+	padding: 0;
+	margin:0;
+	width: 10%;
+	height: 70%;
+	/*background: blue;*/
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.menu h3{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	height:	30%;
+	/*background: red;*/
+	line-height: 60px;
+	color: #c6d6ef;
+}
+.menu ul li{
+	display:block;
+	width: 100%;
+	height: 10%;
+	list-style: none;
+}
+.menu ul li a{
+	color: #c6d6ef;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color: #e6eef7;
+}
+.menu img{
+	float: left;
+	display: block;
+	width: 4%;
+	height: 13%;
+	/*background: blue;*/
+	margin-left: 15px;
+	margin-top: 100px;
+
+}
+.menu a p{
+	clear: both;
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-top: -100px;
+	margin-right: 230px;
+	color: #c6d6ef;
+}
+.menu a p:hover{
+	color: #e6eef7;
+}
+.menu a img:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
